@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="app.js" defer></script>
+    <title>Giorgi's Portfolio Website</title>
+</head>
+<body>
+
+    <header>
+        <div class="bg-container">
+
+            <div class="container">
+                <a href="#" class="logo">Giorgi.</a>
+
+                <nav>
+                    <ul class="primary-nav">
+                        <li class="nav__item"><a href="#" class="nav__link current">Home</a></li>
+                        <li class="nav__item"><a href="../Blog/Blog.html" class="nav__link">Blog</a></li> 
+                        <li class="nav__item"><a href="#" class="nav__link contactBtn">Contact</a></li>                         
+                    </ul>
+                </nav>
+
+                <div class="hamburger">
+                    <span class="bar clr"></span>
+                    <span class="bar clr1"></span>
+                </div>
+
+            </div>
+
+            <div class="intro-section">
+                <div class="container column">
+                    <h1 class="h1">Hey I'm Giorgi</h1>
+                    <h3 class="intro__title-small">UI&UX Designer and Developer from Georgia</h3>
+
+                    <a href="#" class="btn contactBtn1"><span class="text">Let's Talk!</span> <i class="fa-regular fa-envelope email" style="display: none;"></i></a>
+                </div>
+
+                <div class="img-container container">
+                    <img src="../HomePage/photos/hero-guy-3.svg" alt="Guy" class="guy">
+                    <img src="../HomePage/photos/hero-girl.svg" alt="Girl" class="girl">
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <section class="contact">
+        <div class="big-container">
+            
+            <h1 class="sent">Message sent successfully!</h1>
+
+            <div class="close-btn">
+                <a href="#" class="close"><i class="fa-solid fa-x close"></i></a>
+            </div>
+            
+            <form action="https://formsubmit.co/f11d6c6cb2f7a53abc2453fd941ba5a5" method="POST">
+                <input type="text" name="_honey" style="display:none">
+
+                <input type="hidden" name="_next" value="https://grapsinho.github.io/Success/Success">
+                
+                <input type="hidden" name="_captcha" value="false">
+        
+                <input type="hidden" name="_template" value="table">
+                
+                <div class="div big-div">
+                    <div class="div">
+                        <label for="name">Your Name</label> 
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                    
+                    <div class="div">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                </div>
+    
+                <label for="name">Message</label>
+                <textarea id="message" name="comments,&nbsp;questions" rows="3" cols="2"></textarea>
+                <button type="submit" class="btnn"><span>Send Request</span> <i class="fa-solid fa-share"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <main>
+            <section class="canido">
+                <h1 class="h1 title">What can i do for you</h1>
+                <div class="big-container">
+                    <div class="container">
+                        <h1 class="h1 inner-title" style="font-weight: 500;">some of you want a developer who can
+                            make a website for you. With <span style="color: #1A954D; font-weight: 800;">Low Pay, Fast And Quality</span>
+                        </h1>
+
+                        <div class="flex">
+                            <div class="first-col col">
+                                <div class="even-column-first transition">
+                                    <h3 class="h3 flex "><span><img src="../HomePage/photos/fluent_phone-tablet.svg" alt="UI/UI design" class="tablet"></span> UI/Ux Design</h3>
+                                    <p class="p">Landing Pages, User Flow, Wireframing, Mobile App Design, Web App</p>
+                                </div>
+                            
+                                <div class="even-column transition">
+                                    <h3 class="h3 flex"><span><img src="../HomePage/photos/code-computer.svg" alt="Deveopment" class="computer"></span> Development</h3>
+                                    <p class="p">HTML/CSS, JavaScript, WordPress, Responsive Website</p>
+                                </div>
+                                <a href="../Blog/Blog.html" class="animation btn">See Projects</a>
+                            </div>
+
+                            <div class="second-col col">
+                                <img src="./photos/development.svg" alt="development" class="development">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="my-work">
+                <div class="container">
+                    <h1 class="h1 center">My Latest Works</h1>
+                
+                <div class="flex Tic">
+                    <div class="img"><img src="./photos/TicTacToe.svg" alt="TicTacToe" class="TicTacToe"></div>
+
+                    <div class="text-div">
+                        <h1 class="h1">TicTacToe Game</h1>
+                        <p class="p">HTML/CSS,JavaScript,Responsive</p>
+
+                        <a href="https://grapsinho.github.io/TicTacToe/" class="btn btn1">View Project</a>
+                    </div>
+                </div>
+
+                <div class="flex reverse reverse2">
+                    <div class="img"><img src="./photos/Calculator.svg" alt="calculator" class="calculator"></div>
+
+                    <div class="text-div">
+                        <h1 class="h1">Tip Calculator</h1>
+                        <p class="p">HTML/CSS,JavaScript,Responsive</p>
+
+                        <a href="https://grapsinho.github.io/TipCalculator/" class="btn btn2">View Project</a>
+                    </div>
+                </div>
+
+                <div class="flex rest">
+                    <div class="img"><img src="./photos/restaurant.svg" alt="restaurant" class="restaurant"></div>
+
+                    <div class="text-div res">
+                        <h1 class="h1">Restaurant Site</h1>
+                        <p class="p">HTML/CSS,JavaScript,Responsive,Landing Page</p>
+
+                        <a href="https://grapsinho.github.io/BeltonSite/HomePage/" class="btn btn3">View Project</a>
+                    </div>
+                </div>
+                </div>
+            </section>
+
+            <section class="about-me">
+                <h1 class="h1 center">About Me</h1>
+            
+                <div class="bg">
+                    <div class="container">
+            
+                        <div class="flex">
+                            <div class="first-col col">
+                                <p>Hello, I am Giorgi, a beginner in web development.</p>
+                
+                                <h1 class="h1">Why Me?</h1>
+                
+                                <p>I am highly motivated and eager to get as much experience as possible in this industry. I have a short-standing background(I am capable of working in HTML, and CSS..... And I have dozens of websites created)
+                                    which I believe will prove the value of my skills. I am a self-taught youngster, who focuses on progress and self-development.<span class="hide-txt">I can efficiently manage and prioritize my time and work on different projects simultaneously.
+                                    I can follow orders and work as a team without problems, but I can work alone and still do my job quickly and effectively.
+                                    I look forward to discussing this position with you shortly.</span> <span class="see-more">See more...</span></p>
+
+                                <a href="" class="btn contactB">Contact Me!</a>
+                            </div>
+                
+                            <div class="second-col col">
+                                <img src="./photos/Avatar 1.svg" alt="Carton Character" class="img">
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <h1 class="h1">Interested in working with me?</h1>
+
+            <a href="" class="btn contactBtn2">Let’s Talk!</a>
+
+            <div class="social">
+                <a href="https://www.instagram.com/giorgi_giguashvili239/"><div class="instagram"><i class="fa-brands fa-instagram"></i></div></a>
+                <a href="https://www.facebook.com/giorgi.giguashvili.75"><div class="facebook"><i class="fa-brands fa-facebook"></i></div></a>            
+                <a href="#"><div class="linkedin"><i class="fa-brands fa-linkedin"></i></div></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
